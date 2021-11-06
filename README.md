@@ -1,2 +1,5 @@
 # LANL-Earthquake-Prediction
- CNN + LSTM network to predict the time remaining for the next earthquake 
+This work was under a Kaggle competition: https://www.kaggle.com/c/LANL-Earthquake-Prediction The generated aperiodic earthquake failures data by Los Alamos National Laboratory (LANL) were utilized to implement three models: i) random forest (RF), ii) convolutional neural network (CNN) units followed by long short-term memory (LSTM) layers, and iii) hand-crafted features combined with CNN and LSTM layers. <br/>
+Among all, applying a network of CNN and LSTM layers to hand-crafted features is the most accurate and the fastest model to predict the time remaining for the next earthquake. <br/>
+This model achieved the prediction goal with a mean absolute error (MAE) of 1.51 in 44 seconds. <br/>
+This work is published as a conference paper entitled " Learned vs. Hand-Crafted Features for Deep Learning Based Aperiodic Laboratory Earthquake Time-Prediction" https://ieeexplore.ieee.org/document/9302474
